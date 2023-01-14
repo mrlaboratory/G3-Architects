@@ -255,3 +255,58 @@ body {
     font-size: 25px;
 }
 
+
+
+
+/* some fact section style  */
+.fact {
+    width: 100%;
+    height: auto;
+    margin-top: 130px;
+    margin-bottom: 180px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.fact-container {
+    display: grid;
+    grid-template-columns: repeat(4, 242px);
+    grid-template-rows: 242px;
+    gap: 124px;
+    justify-content: center;
+
+}
+
+.fact-item {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-count {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+
+}
+
+.item-name {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
