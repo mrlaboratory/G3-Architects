@@ -1,0 +1,118 @@
+/* ----------------------------------------------------
+This is the main stylesheet for G3 Architects project
+------------------------------------------------------- */
+
+
+/* reset the css default value  */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+/* imported external fonts for this project  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+/* set universel value for this project  */
+body {
+    font-family: 'Work Sans', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* header style  */
+.header {
+    width: 100%;
+    background-color: #FF900E1A;
+    padding-top: 50px;
+
+}
+
+
+/* navigation style here  */
+.navigation {
+  
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.navigation .right ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navigation .right ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+
+
+/* banner style  */
+.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.banner .primary-btn{
+    margin-bottom: 50px;
+}
+
+.primary-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding: 20px 24px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.banner-img{
+    margin-bottom: 50px;
+}
+.banner-img img{
+    width: 100%;
+    height: auto;
+    max-width: 1440px;
+    max-height: 700px;
+    height: auto;
+}
