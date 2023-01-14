@@ -364,3 +364,60 @@ body {
     color: #424242;
 
 }
+
+
+/* style for reviews section  */
+.reviews{
+    width: 100%;
+    height: auto;
+margin-bottom: 130px;
+
+}
+
+.reviews-heading{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+text-align: center;
+margin-bottom: 200px;
+}
+
+.reviews-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.reviews-item{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px #d1cccc;
+    position: relative;
+    padding-top: 80px;
+}
+.reviews-item img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    box-shadow: -5px -7px 15px #c1aeae;
+}
+
+.clients-name{
+    
+    margin-bottom: 10px;
+}
+.clients-company{
+    color: #727272;
+    margin-bottom: 10px;
+}
+
+
+.clients-says{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+
+}
