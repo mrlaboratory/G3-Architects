@@ -310,3 +310,32 @@ body {
     font-size: 20px;
     color: #727272;
 }
+
+
+
+/* sponsors style css here  */
+.sponsors {
+    width: 100%;
+    height: auto;
+}
+
+.sponsors-heading {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.sponsors-description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.sponsors-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
