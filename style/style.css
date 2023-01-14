@@ -296,6 +296,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition-duration: .6s;
+    cursor: pointer;
+}
+.fact-item:hover{
+    border-radius: 50%;
+    background-color: #c1aeae;
 }
 
 .item-count {
@@ -338,6 +344,8 @@ body {
 .sponsors-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+
 }
 
 
@@ -421,3 +429,6 @@ font-size: 16px;
 color: #727272;
 
 }
+
+
+
