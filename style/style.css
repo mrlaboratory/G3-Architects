@@ -370,7 +370,8 @@ body {
     font-weight: 400;
     font-size: 20px;
     color: #424242;
-
+    padding: 10px 30px;
+    text-align: center;
 }
 
 
@@ -387,7 +388,7 @@ margin-bottom: 130px;
 font-size: 45px;
 color: #131313;
 text-align: center;
-margin-bottom: 200px;
+margin-bottom: 100px;
 }
 
 .reviews-container{
@@ -430,5 +431,49 @@ color: #727272;
 
 }
 
+/* responsive css style here  */
 
 
+/* responsive for mobile media queries */
+@media only screen and (max-width:576px) {
+    .navigation, .navigation .right ul{
+        flex-direction: column;
+    }.quick-list, .features,.sponsors-container, .reviews-container, .quick-list-img-container{
+        grid-template-columns: 1fr;
+        
+    }.quick-list-img-container{
+        justify-items: center;
+    
+    }
+    .reviews-container{
+
+        gap: 64px 0px;
+    }.sponsors-img, .banner , .features {
+        padding: 20px;
+    }.quick-list-info {
+        display: flex;
+        padding: 30px;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }.experience {
+        left: 0px;
+        bottom: 0px !important;
+        width: 200px;
+        height: 100px;
+    }.fact-container {
+        grid-template: 300px / 300px;
+    }.fact-item {
+        padding: 50px;
+    }    .reviews-container {
+        padding: 30px;
+    }
+    
+
+}
+
+
+.hide{
+    display: none;
+}
