@@ -30,13 +30,15 @@ body {
     width: 100%;
     background-color: #FF900E1A;
     padding-top: 50px;
+    margin-bottom: 85px;
+
 
 }
 
 
 /* navigation style here  */
 .navigation {
-  
+
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -69,7 +71,7 @@ body {
 
 
 /* banner style  */
-.banner{
+.banner {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
@@ -77,6 +79,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .banner-title {
     font-weight: 700;
     font-size: 64px;
@@ -91,7 +94,8 @@ body {
     color: #727272;
     margin-bottom: 30px;
 }
-.banner .primary-btn{
+
+.banner .primary-btn {
     margin-bottom: 50px;
 }
 
@@ -106,13 +110,61 @@ body {
     outline: none;
     cursor: pointer;
 }
-.banner-img{
+
+.banner-img {
     margin-bottom: 50px;
 }
-.banner-img img{
+
+.banner-img img {
     width: 100%;
     height: auto;
     max-width: 1440px;
     max-height: 700px;
     height: auto;
+}
+
+
+/* main element style  */
+.main {
+    margin-top: 85px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* quick list section css  */
+.quick-list {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 70px;
+    margin-bottom: 130px;
+}
+
+.quick-list-img-container {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 10px;
+}
+
+.list-heading {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    margin-bottom: 24px;
+
+
+}
+
+.primary-color {
+    color: #FF900E;
+}
+
+.list-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
 }
