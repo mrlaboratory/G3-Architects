@@ -338,7 +338,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .sponsors-container {
@@ -347,7 +347,11 @@ body {
     justify-items: center;
 
 }
-
+.sponsors-img img {
+    width: 100%;
+    height: auto;
+   filter: grayscale(100%);
+}
 
 
 
@@ -388,7 +392,13 @@ margin-bottom: 130px;
 font-size: 45px;
 color: #131313;
 text-align: center;
-margin-bottom: 100px;
+margin-bottom: 20px;
+}
+.reviews-description{
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;margin-bottom: 100px;
+    color: gray;
 }
 
 .reviews-container{
@@ -469,10 +479,16 @@ color: #727272;
     }    .reviews-container {
         padding: 30px;
     }
-    
+    .right {
+        margin-top: 20px;
+    }
 
 }
 
+
+@media screen {
+    
+}
 
 .hide{
     display: none;
